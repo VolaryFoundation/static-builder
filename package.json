@@ -1,0 +1,22 @@
+{
+  "name": "volary-static-builder",
+  "version": "0.0.0",
+  "description": "Compile JS/CSS and send to S3",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:VolaryFoundation/static-builder.git"
+  },
+  "author": "Brendan Barr (bbarr1384@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VolaryFoundation/static-builder/issues"
+  },
+  "homepage": "https://github.com/VolaryFoundation/static-builder"
+}
