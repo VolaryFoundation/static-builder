@@ -1,19 +1,22 @@
 {
   "name": "volary-static-builder",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Compile JS/CSS and send to S3",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "mocha test/"
+    "test": "mocha test/ --colors --recursive --reporter spec"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:VolaryFoundation/static-builder.git"
   },
-  "author": "Brendan Barr (bbarr1384@gmail.com)",
+  "author": {
+    "name": "Brendan Barr",
+    "url": "bbarr1384@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/VolaryFoundation/static-builder/issues"
@@ -21,5 +24,21 @@
   "homepage": "https://github.com/VolaryFoundation/static-builder",
   "devDependencies": {
     "mocha": "^1.20.1"
-  }
+  },
+  "dependencies": {
+    "browserify": "^4.2.1",
+    "glob": "^4.0.4",
+    "lodash": "^2.4.1",
+    "node-sass": "^0.9.3",
+    "rsvp": "^3.0.9",
+    "through": "^2.3.4"
+  },
+  "readme": "static-builder\n==============\n",
+  "readmeFilename": "README.md",
+  "_id": "volary-static-builder@0.0.1",
+  "dist": {
+    "shasum": "cc03d89384412976a6b58c28d95c6eaddd396ad1"
+  },
+  "_from": "volary-static-builder@0.0.1",
+  "_resolved": "https://registry.npmjs.org/volary-static-builder/-/volary-static-builder-0.0.1.tgz"
 }
