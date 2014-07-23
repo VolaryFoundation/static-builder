@@ -6,7 +6,6 @@ describe('build/html.js', function() {
 
   it('should basically work', function(done) {
     buildHTML(__dirname + '/../fixtures', { foo: 'bar' }).then(function(htmls) {
-      console.log(htmls)
       assert(htmls.length == 2)
       done()
     })
