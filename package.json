@@ -31,6 +31,7 @@
     "lodash": "^2.4.1",
     "mithrilify": "0.0.1",
     "node-sass": "^0.9.3",
+    "reactify": "^0.14.0",
     "rsvp": "^3.0.9",
     "through": "^2.3.4"
   },
