@@ -1,6 +1,6 @@
 {
   "name": "volary-static-builder",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "description": "Compile JS/CSS and send to S3",
   "main": "lib/index.js",
   "directories": {
@@ -31,7 +31,7 @@
     "lodash": "^2.4.1",
     "mithrilify": "0.0.1",
     "node-sass": "^0.9.3",
-    "reactify": "^0.14.0",
+    "reactify": "*",
     "rsvp": "^3.0.9",
     "s3": "^4.1.1",
     "through": "^2.3.4"
